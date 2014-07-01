@@ -52,7 +52,7 @@ void debug_insert_sort(Iterator first, Iterator last, OStream&& out)
 #include <list>
 
 int main() {
-  std::list<int> v = {5, 1, 4, 3, 2};
+  std::list<int> v = {5, 4, 3, 2, 1};
   debug_insert_sort(std::begin(v), std::end(v), std::cout);
 
   std::cout << "\n";
